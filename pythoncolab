@@ -1,0 +1,10 @@
+import pandas as pd
+
+df_acoes = pd.read_excel("/content/acoes_pura.xlsx",sheet_name="Total_de_acoes")
+df_acoes.head()
+
+df_ticker = pd.read_excel("/content/acoes_pura.xlsx",sheet_name="Ticker")
+df_ticker.head()
+
+df_gpt = pd.read_excel("/content/acoes_pura.xlsx",sheet_name="ChatGPT")
+df_gpt.head()
